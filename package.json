@@ -1,0 +1,37 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "1.12.1",
+    "@react-native-community/datetimepicker": "^3.0.0",
+    "axios": "0.19.0",
+    "expo": "~39.0.2",
+    "moment": "2.24.0",
+    "react": "16.13.1",
+    "react-native": "0.61.5",
+    "react-native-gesture-handler": "1.7.0",
+    "react-native-modal-datetime-picker": "^9.0.0",
+    "react-native-reanimated": "1.13.0",
+    "react-native-screens": "2.10.1",
+    "react-native-vector-icons": "6.6.0",
+    "react-navigation": "4.0.10",
+    "react-navigation-drawer": "2.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/runtime": "^7.7.7",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.8.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.57.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "private": true
+}
